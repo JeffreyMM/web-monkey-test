@@ -1,0 +1,32 @@
+{
+  "name": "web-monkey-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "app-root-path": "^2.0.1",
+    "chromedriver": "^2.35.0",
+    "del-cli": "^1.1.0",
+    "webdriverio": "^4.12.0-beta.1"
+  },
+  "devDependencies": {
+    "allure-commandline": "^2.5.0",
+    "wdio-allure-reporter": "^0.3.3",
+    "wdio-chromedriver-service": "^0.1.2",
+    "wdio-dot-reporter": "0.0.9",
+    "wdio-jasmine-framework": "^0.3.2",
+    "wdio-selenium-standalone-service": "0.0.9",
+    "wdio-spec-reporter": "^0.1.4"
+  },
+  "scripts": {
+    "del": "del-cli",
+    "test": "npm run del -- allure-results && node node_modules/webdriverio/bin/wdio wdio.conf.js && allure generate -c && allure open"
+  },
+  "keywords": [
+    "Monkey",
+    "web test",
+    "fuzzing test"
+  ],
+  "author": "limaojia",
+  "license": "ISC"
+}
