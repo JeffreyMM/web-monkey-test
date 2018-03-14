@@ -14,7 +14,7 @@ This practice, also known as Monkey testing or Fuzz testing, is very common in m
 1. Install required modules
 
     ```c
-    $ npm install -g eslint
+    $ npm install
     ```
 1. Edit example.js
    
