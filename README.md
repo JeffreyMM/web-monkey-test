@@ -2,7 +2,7 @@
 This is a generic monkey test framework base on webdriverio and gremlins.js. Use it to check the robustness of web applications by unleashing a horde of undisciplined gremlins.
 
 ## Introduction
-<iframe width="560" height="315" src="https://www.youtube.com/embed/oCsl2GH-Tww" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+[![IMAGE ALT TEXT](https://i.ytimg.com/vi/oCsl2GH-Tww/0.jpg)](https://youtu.be/oCsl2GH-Tww "CameraMaster")
 
 ## About Gremlins.js
 While developing an HTML5 application, did you anticipate uncommon user interactions? Did you manage to detect and patch all memory leaks? If not, the application may break sooner or later. If n random actions can make an application fail, it's better to acknowledge it during testing, rather than letting users discover it.
